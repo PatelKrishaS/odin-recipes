@@ -3,65 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
     <title>Garlic Bread</title>
   </head>
   <body>
-    <h1>Garlic Bread</h1>
-    <img
-      src="../images/garlic-bread.jpg"
-      alt="Three slices of cheesy garlic bread are on a wooden board, garnished with parsley. Fresh garlic, parsley, and small bowls of butter are in the background."
-      width="450"
-    />
-    <h2>Description</h2>
-    <p>
-      This irresistible cheesy garlic bread features thick slices of artisanal
-      bread slathered in rich garlic butter, topped with melted mozzarella, and
-      baked until bubbly and golden brown. Served fresh on a rustic wooden
-      board, each piece offers a perfect balance of a crunchy crust and a soft,
-      cheesy center.
-    </p>
-    <p>
-      The fragrant aroma of freshly minced garlic and melted butter fills the
-      room, making it the ultimate comfort food. A generous garnish of freshly
-      chopped parsley completes the dish, adding a burst of color and a clean,
-      herbaceous finish to this classic appetizer.
-    </p>
-    <h2>Ingredients</h2>
-    <ul>
-      <li>Bread slices</li>
-      <li>Minced garlic</li>
-      <li>Softened butter</li>
-      <li>Mozzarella cheese</li>
-      <li>Fresh parsley</li>
-      <li>Salt and pepper</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-      <li>
-        Combine the softened butter, minced garlic, a pinch of salt, and chopped
-        parsley in a small bowl.
-      </li>
-      <li>
-        Spread the garlic butter mixture evenly over one side of each bread
-        slice.
-      </li>
-      <li>
-        Top the buttered bread generously with a thick layer of shredded
-        mozzarella cheese.
-      </li>
-      <li>
-        Arrange the slices on a baking sheet and bake in a preheated oven until
-        the cheese melts.
-      </li>
-      <li>
-        Broil for the final minute until the cheese becomes bubbly and develops
-        golden spots.
-      </li>
-      <li>
-        Transfer the hot slices to a wooden board, garnish with extra parsley,
-        and serve immediately.
-      </li>
-    </ol>
-    <a href="../index.html">Home</a>
+    <main class="recipe">
+      <div class="recipe-inner">
+        <a class="btn back-link" href="../recipes.html"
+          >&larr; Back to Recipes Page</a
+        >
+        <header class="recipe-header">
+          <h1 class="recipe-title">Garlic Bread</h1>
+        </header>
+
+        <div class="recipe-grid">
+          <section class="recipe-card">
+            <p class="recipe-intro">
+              This irresistible cheesy garlic bread features thick slices of
+              artisanal bread slathered in rich garlic butter, topped with
+              melted mozzarella, and baked until bubbly and golden brown. Served
+              fresh on a rustic wooden board, each piece offers a perfect
+              balance of a crunchy crust and a soft, cheesy center.
+            </p>
+
+            <h2 id="ingredients-heading" class="ingredients-title">
+              Ingredients
+            </h2>
+            <ul class="ingredient-list">
+              <li>Bread slices</li>
+              <li>Minced garlic</li>
+              <li>Softened butter</li>
+              <li>Mozzarella cheese</li>
+              <li>Fresh parsley</li>
+              <li>Salt and pepper</li>
+            </ul>
+          </section>
+
+          <div class="recipe-right-side">
+            <figure class="recipe-figure">
+              <img
+                src="../images/garlic-bread.jpg"
+                alt="Three slices of cheesy garlic bread are on a wooden board, garnished with parsley. Fresh garlic, parsley, and small bowls of butter are in the background."
+              />
+            </figure>
+
+            <section class="steps-card" aria-labelledby="steps-heading">
+              <h2 id="steps-heading" class="steps-title">Steps</h2>
+              <ul class="step-list">
+                <li>
+                  Combine the softened butter, minced garlic, a pinch of salt,
+                  and chopped parsley in a small bowl.
+                </li>
+                <li>
+                  Spread the garlic butter mixture evenly over one side of each
+                  bread slice.
+                </li>
+                <li>
+                  Top the buttered bread generously with a thick layer of
+                  shredded mozzarella cheese.
+                </li>
+                <li>
+                  Arrange the slices on a baking sheet and bake in a preheated
+                  oven until the cheese melts.
+                </li>
+                <li>
+                  Broil for the final minute until the cheese becomes bubbly and
+                  develops golden spots.
+                </li>
+                <li>
+                  Transfer the hot slices to a wooden board, garnish with extra
+                  parsley, and serve immediately.
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
